@@ -1,0 +1,14 @@
+<svg width="100" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="'Playfair Display', serif" font-size="70" font-weight="600">
+    
+    <circle cx="50" cy="50" r="55" fill="#6293c3ff" />
+
+    <circle cx="50" cy="50" r="50" fill="#cbddefff" />
+
+    <text x="0" y="73" fill="#003399">P</text>
+
+    <text x="40" y="73" fill="#3171efff">R</text>
+
+    <text x="48" y="73" fill="#203eb3ff">R</text> 
+  </g>
+</svg>
