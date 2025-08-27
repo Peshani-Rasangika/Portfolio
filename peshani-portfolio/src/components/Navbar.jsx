@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../assets/logo.svg";
 
@@ -16,27 +16,42 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="nav-logo-link" onClick={closeNav}>
+      <NavLink to="/" className="nav-logo-link" onClick={closeNav}>
         <img src={logo} alt="PRR" className="nav-logo" />
-      </Link>
+      </NavLink>
       <div className="menu-icon" onClick={toggleNav}>
         <div className={isNavOpen ? "hamburger open" : "hamburger"}></div>
       </div>
       <ul className={isNavOpen ? "nav-links open" : "nav-links"}>
         <li>
-          <Link to="/" onClick={closeNav}>
+          <NavLink
+            to="/"
+            onClick={closeNav}
+            class={({ isActive }) => (isActive ? "active" : "")}
+            end
+          >
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/about" onClick={closeNav}>
+          <NavLink
+            to="/about"
+            onClick={closeNav}
+            class={({ isActive }) => (isActive ? "active" : "")}
+            end
+          >
             About
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/contact" onClick={closeNav}>
+          <NavLink
+            to="/contact"
+            onClick={closeNav}
+            class={({ isActive }) => (isActive ? "active" : "")}
+            end
+          >
             Contact
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
