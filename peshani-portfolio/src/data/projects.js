@@ -184,6 +184,36 @@ const projects = [
       "A full-stack social media platform that allows users to create communities, share posts, and interact through comments.",
     image: "/assets/connectHub/landingPage.png",
     githubLink: "https://github.com/pamudusarasith/ConnectHub.git",
+    details: [
+      {
+        type: "image",
+        src: "/assets/connectHub/comment.png",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/writeComment.png",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/addedComment.png",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/comments.png",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/editComment.png",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/editedComment.png",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/deletedComment.png",
+      },
+    ],
   },
   {
     id: 3,
