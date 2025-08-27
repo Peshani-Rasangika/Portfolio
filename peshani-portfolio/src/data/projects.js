@@ -181,17 +181,33 @@ const projects = [
     id: 2,
     title: "ConnectHub",
     description:
-      "A clean and simple weather application that uses a third-party API to fetch real-time data.",
+      "A full-stack social media platform that allows users to create communities, share posts, and interact through comments.",
     image: "/assets/connectHub/landingPage.png",
     githubLink: "https://github.com/pamudusarasith/ConnectHub.git",
   },
   {
     id: 3,
-    title: "GoodDevs",
+    title: "GoodDevs (Ongoing)",
     description:
-      "A tool to help users organize their daily tasks with a drag-and-drop interface.",
-    image: "/assets/simpex-solar/landingPage.png",
+      "A web-based platform that connects nonprofit organizations and individuals needing technical solutions with volunteer developers.",
+    image: "/assets/goodDevs/landingPage.png",
     githubLink: "https://github.com/gooddevs-ucsc/gooddevs-full-stack.git",
+  },
+  {
+    id: 4,
+    title: "PRChat (Ongoing)",
+    description:
+      "A real-time Android chat application enabling two users to establish an instant and secure communication session by scanning a QR code. The system focuses on privacy with temporary connections that require mutual consent to be extended.",
+    image: "/assets/pRChat/landingPage.png",
+    githubLink: "https://github.com/mr-chamika/chat-app-MAD",
+  },
+  {
+    id: 5,
+    title: "FieldLink (Ongoing)",
+    description:
+      "A full-stack web application to help small businesses manage and track their mobile field teams. The platform provides a centralized dashboard for managers to assign tasks and an interface for agents to view and update their work in real-time.",
+    image: "/assets/fieldLink/landingPage.png",
+    githubLink: "https://github.com/Peshani-Rasangika/FieldLink",
   },
 ];
 
