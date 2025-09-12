@@ -9,7 +9,8 @@ function Landing() {
       <section className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">
-            Hi, I'm <span className="highlight">Peshani Rasangika</span>
+            Hi, I'm{" "}
+            <span className="highlight">Peshani Rasangika Ranaweera</span>
           </h1>
           <h2 className="hero-subtitle">Full-Stack Developer</h2>
           <p className="hero-description">
