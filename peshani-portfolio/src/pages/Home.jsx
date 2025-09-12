@@ -14,17 +14,11 @@ function Home() {
       <div
         style={{
           position: "fixed",
-          top: 0,
-          left: 0,
           width: "100vw",
           height: "100vh",
-          backgroundImage: "url('/assets/profileBanner.png')",
+          color: "white",
           backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          filter: "blur(2px)",
-          zIndex: 0,
-          pointerEvents: "none",
+          background: "linear-gradient(135deg, #ffffff 0%, #c4d2ee 100%)",
         }}
       />
       <main

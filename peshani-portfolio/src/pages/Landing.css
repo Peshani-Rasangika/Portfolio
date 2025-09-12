@@ -1,0 +1,265 @@
+.landing-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffffff 0%, #c4d2ee 100%);
+  color: #333333;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 0 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 40px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  color: #2c3e50;
+}
+
+.highlight {
+  color: #3498db;
+  text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.3);
+}
+
+.hero-subtitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  color: #34495e;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: #3498db;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+}
+
+.btn-primary:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.6);
+}
+
+.btn-secondary {
+  background: rgba(52, 152, 219, 0.1);
+  color: #2980b9;
+  border: 2px solid #3498db;
+  backdrop-filter: blur(10px);
+}
+
+.btn-secondary:hover {
+  background: #3498db;
+  color: #ffffff;
+  border-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.tech-preview {
+  margin-top: 2rem;
+}
+
+.tech-preview p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  background: rgba(52, 152, 219, 0.15);
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(52, 152, 219, 0.3);
+  color: #2980b9;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-placeholder {
+  width: 300px;
+  height: 300px;
+  background: rgba(52, 152, 219, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(15px);
+  border: 3px solid rgba(52, 152, 219, 0.3);
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(52, 152, 219, 0.2);
+}
+
+.profile-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.code-animation {
+  width: 150px;
+}
+
+.code-line {
+  height: 4px;
+  background: #3498db;
+  margin: 8px 0;
+  border-radius: 2px;
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+.code-line.short {
+  width: 60%;
+  animation-delay: 0.5s;
+}
+
+.code-line.medium {
+  width: 80%;
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.02);
+  }
+}
+
+.stats-section {
+  background: rgba(52, 152, 219, 0.1);
+  padding: 4rem 5%;
+  margin-top: 0;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+.stat-item h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2980b9;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
+}
+
+.stat-item p {
+  font-size: 1.1rem;
+  color: #34495e;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 5%;
+  }
+
+  .hero-content {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .profile-placeholder {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .tech-tags {
+    justify-content: center;
+  }
+}
