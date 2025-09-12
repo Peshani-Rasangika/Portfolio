@@ -267,15 +267,6 @@ const projects = [
   },
   {
     id: 4,
-    title: "PRChat (Ongoing)",
-    description:
-      "A real-time Android chat application enabling two users to establish an instant and secure communication session by scanning a QR code. The system focuses on privacy with temporary connections that require mutual consent to be extended.",
-    image: "/assets/pRChat/landingPage.png",
-    technologies: ["React Native", "Java Spring Boot", "SQLite", "MongoDB"],
-    githubLink: "https://github.com/mr-chamika/chat-app-MAD",
-  },
-  {
-    id: 5,
     title: "FieldLink (Ongoing)",
     description:
       "A full-stack web application to help small businesses manage and track their mobile field teams. The platform provides a centralized dashboard for managers to assign tasks and an interface for agents to view and update their work in real-time.",
