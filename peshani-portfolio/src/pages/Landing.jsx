@@ -27,10 +27,11 @@ function Landing() {
               Learn More About Me
             </Link>
             <a
-              href="/assets/Peshani_Rasangika_CV.pdf"
+              href="/assets/Peshani_Ranaweera_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-tertiary"
+              download="Peshani_Ranaweera_CV.pdf"
             >
               Download CV
             </a>

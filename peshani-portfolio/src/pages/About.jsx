@@ -100,7 +100,7 @@ function About() {
                   <span className="skill-tag">WebSockets</span>
                   <span className="skill-tag">RESTful APIs</span>
                   <span className="skill-tag">Firebase</span>
-                  <span className="skill-tag">JWT Authentication</span>
+                  {/* <span className="skill-tag">JWT Authentication</span> */}
                 </div>
               </div>
             </div>
