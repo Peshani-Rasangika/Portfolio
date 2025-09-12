@@ -48,7 +48,7 @@ function Landing() {
             </div>
             <div className="highlight-item">
               <span className="highlight-icon">⚡</span>
-              <span>Full-Stack Specialist</span>
+              <span>Passionate About Full-Stack Development</span>
             </div>
           </div>
         </div>
