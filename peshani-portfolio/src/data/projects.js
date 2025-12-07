@@ -5,6 +5,7 @@ const projects = [
     description:
       "A comprehensive web-based platform to automate end-to-end business processes for a solar solutions provider, integrating customer relationship management, project tracking, internal operations, and e-commerce into a unified system. Customer, Operations Coordinator, Supplier Coordinator, Human Resource Administrator, Employees(Clerk, Engineer, Technician, Delivery Person) are the user roles.",
     image: "/assets/simpex-solar/landingPage.png",
+    technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/yomal7/simpex-solar.git",
     details: [
       {
@@ -181,17 +182,97 @@ const projects = [
     id: 2,
     title: "ConnectHub",
     description:
-      "A clean and simple weather application that uses a third-party API to fetch real-time data.",
+      "A full-stack social media platform that allows users to create communities, share posts, and interact through comments. People can join communities based on their interests. Users can create posts within these communities and engage with others by commenting on posts.",
     image: "/assets/connectHub/landingPage.png",
+    technologies: ["MongoDB", "Express.js", "React", "Node.js"],
     githubLink: "https://github.com/pamudusarasith/ConnectHub.git",
+    details: [
+      {
+        type: "text",
+        content:
+          "Implemented both frontend and backend for the comment section of the post. Users can create comments on posts.",
+        bold: true,
+      },
+      {
+        type: "text",
+        content: "This is how the post appears with the comment section.",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/comment.png",
+      },
+      {
+        type: "text",
+        content: "Here user can write a comment on the post.",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/writeComment.png",
+      },
+      {
+        type: "text",
+        content: "The written comment appears here.",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/addedComment.png",
+      },
+      {
+        type: "text",
+        content: "Each comment written on the post appears here as a list.",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/comments.png",
+      },
+      {
+        type: "text",
+        content: "The user can edit the written comment.",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/editComment.png",
+      },
+      {
+        type: "text",
+        content: "The edited comment updates here with a mark as edited.",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/editedComment.png",
+      },
+      {
+        type: "text",
+        content: "The user can delete the written comment.",
+      },
+      {
+        type: "image",
+        src: "/assets/connectHub/deletedComment.png",
+      },
+    ],
   },
   {
     id: 3,
-    title: "GoodDevs",
+    title: "GoodDevs (Ongoing)",
     description:
-      "A tool to help users organize their daily tasks with a drag-and-drop interface.",
-    image: "/assets/simpex-solar/landingPage.png",
+      "A web-based platform that connects nonprofit organizations and individuals needing technical solutions with volunteer developers.",
+    image: "/assets/goodDevs/landingPage.png",
+    technologies: [
+      "React (TypeScript)",
+      "FastAPI (Python)",
+      "PostgreSQL",
+      "Tailwind CSS",
+    ],
     githubLink: "https://github.com/gooddevs-ucsc/gooddevs-full-stack.git",
+  },
+  {
+    id: 4,
+    title: "FieldLink (Ongoing)",
+    description:
+      "A full-stack web application to help small businesses manage and track their mobile field teams. The platform provides a centralized dashboard for managers to assign tasks and an interface for agents to view and update their work in real-time.",
+    image: "/assets/fieldLink/landingPage.png",
+    technologies: ["React", "Java Spring Boot", "PostgreSQL"],
+    githubLink: "https://github.com/Peshani-Rasangika/FieldLink",
   },
 ];
 

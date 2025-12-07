@@ -42,6 +42,31 @@ function ProjectDetails() {
         }}
       />
       <p>{project.description}</p>
+
+      {/* Technologies Section */}
+      {project.technologies && (
+        <div style={{ marginBottom: "20px" }}>
+          <h3>Technologies Used:</h3>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+            {project.technologies.map((tech, index) => (
+              <span
+                key={index}
+                style={{
+                  backgroundColor: "#0f6178ff",
+                  color: "white",
+                  padding: "4px 12px",
+                  borderRadius: "16px",
+                  fontSize: "0.9em",
+                  fontWeight: "bold",
+                }}
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
       <h2 style={{ marginTop: "3%" }}>My Contribution</h2>
       <div
         style={{

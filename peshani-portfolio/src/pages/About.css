@@ -1,0 +1,284 @@
+.page-background {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffffff 0%, #c4d2ee 100%);
+  color: #333333;
+  padding: 2rem 0;
+}
+
+.page-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  padding: 2rem 0;
+}
+
+.profile-section {
+  flex-shrink: 0;
+}
+
+.about-profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(52, 152, 219, 0.3);
+  box-shadow: 0 8px 32px rgba(52, 152, 219, 0.2);
+}
+
+.intro-section h1 {
+  color: #2980b9;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #2c3e50;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  color: #2980b9;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Education Section */
+.education-card {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+  box-shadow: 0 8px 32px rgba(52, 152, 219, 0.1);
+}
+
+.education-icon {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+.education-details h3 {
+  color: #2980b9;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 0.3rem;
+}
+
+.duration {
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Skills Section - Horizontal Layout */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.skill-category {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+.skill-category h3 {
+  color: #2980b9;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.skill-tag {
+  background: rgba(52, 152, 219, 0.15);
+  color: #2980b9;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+/* Services Section - Horizontal Layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  color: #2980b9;
+  margin-bottom: 0.5rem;
+}
+
+.service-card p {
+  color: #2c3e50;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Experience Section */
+.experience-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.experience-item {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+.experience-item h3 {
+  color: #2980b9;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.experience-item p {
+  color: #2c3e50;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Interests Section */
+.interests-section {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+.interests-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #2c3e50;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Mobile Responsive */
+@media (max-width: 1200px) {
+  .skills-grid,
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .about-profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .intro-section h1 {
+    font-size: 2rem;
+  }
+
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skills-grid,
+  .services-grid,
+  .experience-list {
+    grid-template-columns: 1fr;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-content {
+    padding: 0 3%;
+  }
+
+  .about-container {
+    padding: 0;
+  }
+
+  .service-card,
+  .experience-item,
+  .education-card,
+  .skill-category {
+    padding: 1rem;
+  }
+}
