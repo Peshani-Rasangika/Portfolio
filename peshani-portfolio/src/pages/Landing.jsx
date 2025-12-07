@@ -42,11 +42,11 @@ function Landing() {
           <div className="quick-highlights">
             <div className="highlight-item">
               <span className="highlight-icon">🎓</span>
-              <span>UCSC Software Engineering Student</span>
+              <span>UCSC Computer Science Undergraduate</span>
             </div>
             <div className="highlight-item">
               <span className="highlight-icon">💼</span>
-              <span>5+ Projects Delivered</span>
+              <span>4+ Projects Delivered</span>
             </div>
             <div className="highlight-item">
               <span className="highlight-icon">⚡</span>
