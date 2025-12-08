@@ -253,7 +253,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "GoodDevs (Ongoing)",
+    title: "GoodDevs",
     description:
       "A web-based platform that connects nonprofit organizations and individuals needing technical solutions with volunteer developers.",
     image: "/assets/goodDevs/landingPage.png",
@@ -270,9 +270,16 @@ const projects = [
     title: "FieldLink (Ongoing)",
     description:
       "A full-stack web application to help small businesses manage and track their mobile field teams. The platform provides a centralized dashboard for managers to assign tasks and an interface for agents to view and update their work in real-time.",
-    image: "/assets/fieldLink/landingPage.png",
+    image: "/assets/ongoing.jpg",
     technologies: ["React", "Java Spring Boot", "PostgreSQL"],
     githubLink: "https://github.com/Peshani-Rasangika/FieldLink",
+    details: [
+      {
+        type: "text",
+        content: "==>*  INDIVIDUAL PROJECT  *<==",
+        bold: true,
+      },
+    ],
   },
 ];
 
