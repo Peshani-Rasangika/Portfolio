@@ -61,7 +61,6 @@ function About() {
                 <h3>Frontend Development</h3>
                 <div className="skill-tags">
                   <span className="skill-tag">React</span>
-                  <span className="skill-tag">React Native</span>
                   <span className="skill-tag">TypeScript</span>
                   <span className="skill-tag">HTML5</span>
                   <span className="skill-tag">CSS3</span>
@@ -74,7 +73,6 @@ function About() {
                 <h3>Backend Development</h3>
                 <div className="skill-tags">
                   <span className="skill-tag">Node.js</span>
-                  <span className="skill-tag">Express.js</span>
                   <span className="skill-tag">FastAPI</span>
                   <span className="skill-tag">Python</span>
                   <span className="skill-tag">PHP</span>
@@ -88,7 +86,6 @@ function About() {
                   <span className="skill-tag">MySQL</span>
                   <span className="skill-tag">MongoDB</span>
                   <span className="skill-tag">PostgreSQL</span>
-                  <span className="skill-tag">SQLite</span>
                 </div>
               </div>
 
@@ -107,7 +104,7 @@ function About() {
           </section>
 
           {/* What I Do Section */}
-          <section className="services-section">
+          {/* <section className="services-section">
             <h2>What I Do</h2>
             <div className="services-grid">
               <div className="service-card">
@@ -147,9 +144,9 @@ function About() {
                 </p>
               </div>
             </div>
-          </section>
+          </section> */}
 
-          {/* Experience Highlights */}
+          {/* Experience Highlights
           <section className="experience-section">
             <h2>Experience Highlights</h2>
             <div className="experience-list">
@@ -181,9 +178,9 @@ function About() {
                   Experience in both web and mobile application development
                   using React and React Native.
                 </p>
-              </div> */}
+              </div> 
             </div>
-          </section>
+          </section> */}
 
           {/* Personal Interests */}
           {/* <section className="interests-section">
@@ -196,6 +193,60 @@ function About() {
               and businesses.
             </p>
           </section> */}
+          <section className="achievements-section">
+            <h2>Certifications & Achievements</h2>
+            <div className="achievements-grid">
+              <article className="achievement-card">
+                <h3>HackerRank - 30 Days of Code</h3>
+                <p>
+                  Issued by HackerRank (Nov 2025).{" "}
+                  {/*Validated skills in Java,
+                  Algorithms, and Data Structures.*/}
+                </p>
+              </article>
+              <article className="achievement-card">
+                <h3>Postman API Fundamentals Student Expert</h3>
+                <p>
+                  Issued by Postman (Nov 2025).{" "}
+                  {/*Covers API Testing, REST APIs,
+                  and request handling.*/}
+                </p>
+              </article>
+              <article className="achievement-card">
+                <h3>JavaScript Mastery From Basics to Advanced 2025</h3>
+                <p>
+                  Issued by Udemy (Sep 2025).{" "}
+                  {/*Comprehensive training in modern
+                  JavaScript development.*/}
+                </p>
+              </article>
+              <article className="achievement-card">
+                <h3>Python For Beginners Course In-Depth</h3>
+                <p>
+                  Issued by Udemy (May 2025).{" "}
+                  {/*In-depth course on Python
+                  programming language fundamentals.  */}
+                </p>
+              </article>
+              <article className="achievement-card">
+                <h3>AWS Educate Introduction to Cloud 101</h3>
+                <p>
+                  Issued by AWS Training and Certification (Aug 2024).
+                  {/*Foundational knowledge in Cloud Computing and AWS services.*/}
+                </p>
+              </article>
+              <article className="achievement-card">
+                <h3>
+                  Microsoft Learn Student Ambassadors Cloud Skills Challenge
+                </h3>
+                <p>
+                  Issued by Microsoft (Aug 2023).{" "}
+                  {/*Web Development 101 covering
+                  Git, CSS, and web fundamentals.*/}
+                </p>
+              </article>
+            </div>
+          </section>
         </div>
       </div>
     </div>
