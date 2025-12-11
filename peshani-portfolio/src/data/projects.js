@@ -665,6 +665,146 @@ const projects = [
       },
     ],
   },
+  {
+    id: 6,
+    title: "TeamSync",
+    projectType: "Individual Project",
+    description:
+      "Developed a responsive full-stack web application named TeamSync to streamline their internal employee management process. The system serves as a centralized directory, allowing administrators to view the current staff list and onboard new team members efficiently.",
+    image: "/assets/teamSync/memberList.png",
+    technologies: ["React.js", "Tailwind CSS", "PHP", "MySQL"],
+    githubLink: "https://github.com/Peshani-Rasangika/TeamSync.git",
+    details: [
+      {
+        type: "text",
+        content: "Member Dashboard",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "The centralized dashboard displays the list of all members with options to edit or delete. It includes search functionality and interactive action buttons.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/memberList.png",
+      },
+      {
+        type: "text",
+        content: "Add New Member",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "Administrators can onboard new members using the registration form, which includes fields for personal details and division assignment.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/addMember.png",
+      },
+      {
+        type: "text",
+        content: "Success notification upon adding a member.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/memberAdded.png",
+      },
+      {
+        type: "text",
+        content: "Search Functionality",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "Real-time search functionality allows quick filtering of members by name.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/searchMember.png",
+      },
+      {
+        type: "text",
+        content: "Update Member Details",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "Existing member details can be updated easily. The form is pre-filled with current data.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/updateMember.png",
+      },
+      {
+        type: "text",
+        content: "Success notification upon updating a member.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/memberUpdated.png",
+      },
+      {
+        type: "text",
+        content: "Updated list view showing the changes.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/memberUpdatedList.png",
+      },
+      {
+        type: "text",
+        content: "Delete Member",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "Confirmation dialogs ensure members are not deleted accidentally.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/deleteMember.png",
+      },
+      {
+        type: "text",
+        content: "Success notification upon deletion.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/memberDeleted.png",
+      },
+      {
+        type: "text",
+        content: "List view after deletion.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/memberDeletedList.png",
+      },
+      {
+        type: "text",
+        content: "Safety Features",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "The system warns users about unsaved changes to prevent data loss when navigating away from a form.",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/unsavedChangesUpdate.png",
+      },
+      {
+        type: "image",
+        src: "/assets/teamSync/unsavedChangesCreate.png",
+      },
+    ],
+  },
 ];
 
 export default projects;
