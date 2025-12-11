@@ -193,6 +193,38 @@ function About() {
               and businesses.
             </p>
           </section> */}
+          {/* Extra Curricular Activities Section */}
+          <section className="activities-section">
+            <h2>Extra Curricular Activities</h2>
+            <div className="activity-card">
+              <div className="activity-icon">🏆</div>
+              <div className="activity-details">
+                <h3>
+                  Fresher's Inter Faculty Championship 2023- University of
+                  Colombo
+                </h3>
+                <div className="activities-grid">
+                  <div className="activity-item">
+                    <p>• 2nd Runner Up - Basketball (Women)</p>
+                    <img
+                      src="/assets/activities/basketball.jpg"
+                      alt="Basketball Certificate"
+                      className="activity-image"
+                    />
+                  </div>
+                  <div className="activity-item">
+                    <p>• 1st Runner Up - Kabaddi (Women)</p>
+                    <img
+                      src="/assets/activities/kabaddi.jpg"
+                      alt="Kabaddi Certificate"
+                      className="activity-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section className="achievements-section">
             <h2>Certifications & Achievements</h2>
             <div className="achievements-grid">
