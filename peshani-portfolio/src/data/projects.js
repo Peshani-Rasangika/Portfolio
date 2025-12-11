@@ -588,6 +588,83 @@ const projects = [
     githubLink: "https://github.com/Peshani-Rasangika/FieldLink",
     details: [],
   },
+  {
+    id: 5,
+    title: "Digital Student ID Card App",
+    projectType: "Individual Project",
+    description:
+      "Universities often face delays when issuing physical student ID cards during new enrollment periods. To solve this, I developed a Digital Student ID Card App that lets students instantly access a secure digital ID while they await their physical card. The application uses Asgardeo (WSO2) for authentication, authorization, and user management. Admins add students through the Asgardeo console, and students can log in to view their digital ID.",
+    image: "/assets/digitalIDCardApp/studentAccess.png",
+    technologies: ["React", "Tailwind CSS", "Asgardeo (WSO2)", "Vercel"],
+    githubLink: "https://github.com/Peshani-Rasangika/Digital-ID-card",
+    details: [
+      {
+        type: "text",
+        content: "How the System Works",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "1. Administrator Adds Students: Administrators log in to the Asgardeo Console and create student accounts. These student details are later displayed in the Digital ID Card App.",
+      },
+      {
+        type: "image",
+        src: "/assets/digitalIDCardApp/adminAddDetails1.png",
+      },
+      {
+        type: "image",
+        src: "/assets/digitalIDCardApp/adminAddDetails2.png",
+      },
+      {
+        type: "text",
+        content:
+          "2. Student Access: Students open the app and click the 'Access ID Card' button. They are redirected to the Asgardeo login page.",
+      },
+      {
+        type: "image",
+        src: "/assets/digitalIDCardApp/studentAccess.png",
+      },
+      {
+        type: "image",
+        src: "/assets/digitalIDCardApp/studentLogin.png",
+      },
+      {
+        type: "text",
+        content:
+          "3. Digital Student ID Display: Once authenticated, students see their digital ID card, which includes their Name, Student ID, Involvement (Undergraduate/Postgraduate), and validity details — all securely retrieved from Asgardeo.",
+      },
+      {
+        type: "image",
+        src: "/assets/digitalIDCardApp/studentDigitalID.png",
+      },
+      {
+        type: "text",
+        content: "Current Focus",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "Currently, administrators add student data directly from the Asgardeo console. I am working on enhancing the app so admins can add new students directly from the application itself. This will make the system fully self-contained for the university.",
+      },
+      {
+        type: "text",
+        content: "Project Links",
+        bold: true,
+      },
+      {
+        type: "text",
+        content:
+          "Live Deployment: https://digital-student-id-card-rouge.vercel.app/",
+      },
+      {
+        type: "text",
+        content:
+          "Blog Post: https://medium.com/@prranaweeraos2001/digital-student-id-cards-using-asgardeo-wso2-authentication-d47109042cc0",
+      },
+    ],
+  },
 ];
 
 export default projects;
