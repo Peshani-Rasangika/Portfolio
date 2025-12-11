@@ -594,7 +594,7 @@ const projects = [
     projectType: "Individual Project",
     description:
       "Universities often face delays when issuing physical student ID cards during new enrollment periods. To solve this, I developed a Digital Student ID Card App that lets students instantly access a secure digital ID while they await their physical card. The application uses Asgardeo (WSO2) for authentication, authorization, and user management. Admins add students through the Asgardeo console, and students can log in to view their digital ID.",
-    image: "/assets/digitalIDCardApp/studentAccess.png",
+    image: "/assets/digitalIDCardApp/landingPage.png",
     technologies: ["React", "Tailwind CSS", "Asgardeo (WSO2)", "Vercel"],
     githubLink: "https://github.com/Peshani-Rasangika/Digital-ID-card",
     details: [
