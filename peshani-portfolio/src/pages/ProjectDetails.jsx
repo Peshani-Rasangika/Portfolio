@@ -28,6 +28,23 @@ function ProjectDetails() {
         ← Back
       </button>
       <h1>{project.title}</h1>
+      {project.projectType && (
+        <span
+          style={{
+            display: "inline-block",
+            backgroundColor: "#e0f7fa",
+            color: "#006064",
+            padding: "4px 8px",
+            borderRadius: "4px",
+            fontSize: "0.9em",
+            fontWeight: "bold",
+            marginBottom: "16px",
+          }}
+        >
+          {project.projectType}
+        </span>
+      )}
+      <br />
       <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
         View on GitHub
       </a>

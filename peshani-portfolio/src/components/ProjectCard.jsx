@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ProjectCard.css";
 
-function ProjectCard({ image, title, description, id }) {
+function ProjectCard({ image, title, description, id, projectType }) {
   const maxDescriptionLength = 100;
   const displayDescription =
     description.length > maxDescriptionLength
@@ -20,6 +20,7 @@ function ProjectCard({ image, title, description, id }) {
           className="project-image"
         />
         <div className="project-info">
+          <span className="project-type">{projectType}</span>
           <h3>{title}</h3>
           <p>{displayDescription}</p>
         </div>

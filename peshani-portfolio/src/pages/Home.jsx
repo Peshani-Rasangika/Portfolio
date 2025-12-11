@@ -31,6 +31,7 @@ function Home() {
             id={project.id}
             image={project.image}
             title={project.title}
+            projectType={project.projectType}
             description={project.description}
             githubLink={project.githubLink}
           />

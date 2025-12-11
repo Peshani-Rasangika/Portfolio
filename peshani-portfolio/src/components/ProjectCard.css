@@ -26,6 +26,17 @@
   margin-top: 0;
 }
 
+.project-type {
+  display: inline-block;
+  background-color: #e0f7fa;
+  color: #006064;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
 .project-link svg {
   width: 24px;
   height: 24px;

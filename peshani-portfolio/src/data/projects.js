@@ -2,6 +2,7 @@ const projects = [
   {
     id: 1,
     title: "Simpex Solar",
+    projectType: "Group Project",
     description:
       "A comprehensive web-based platform to automate end-to-end business processes for a solar solutions provider, integrating customer relationship management, project tracking, internal operations, and e-commerce into a unified system. Customer, Operations Coordinator, Supplier Coordinator, Human Resource Administrator, Employees(Clerk, Engineer, Technician, Delivery Person) are the user roles.",
     image: "/assets/simpex-solar/landingPage.png",
@@ -181,6 +182,7 @@ const projects = [
   {
     id: 2,
     title: "ConnectHub",
+    projectType: "Group Project",
     description:
       "A full-stack social media platform that allows users to create communities, share posts, and interact through comments. People can join communities based on their interests. Users can create posts within these communities and engage with others by commenting on posts.",
     image: "/assets/connectHub/landingPage.png",
@@ -254,6 +256,7 @@ const projects = [
   {
     id: 3,
     title: "GoodDevs",
+    projectType: "Group Project",
     description:
       "A web-based platform that connects nonprofit organizations and individuals needing technical solutions with volunteer developers. This platform has four roles: Admin, Volunteer, Requester and Sponsor. Requester requests a project, admin views and approve or reject the request. Approved projects are appeared in the projects section and volunteers can apply for these listed projects. Then the requester approves them and then also can grant persmission to approved volunteers to approve upcoming volunteer requests. In project details section there are three subsections: Description, Tasks & Requirements and Discussion. Project details view shows the details of the project including requester plublic profile. These roles can discuss in this discussion section.",
     image: "/assets/goodDevs/landingPage.png",
@@ -577,6 +580,7 @@ const projects = [
   {
     id: 4,
     title: "FieldLink (Ongoing)",
+    projectType: "Individual Project",
     description:
       "A full-stack web application to help small businesses manage and track their mobile field teams. The platform provides a centralized dashboard for managers to assign tasks and an interface for agents to view and update their work in real-time.",
     image: "/assets/ongoing.jpg",
