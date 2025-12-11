@@ -18,16 +18,13 @@ function About() {
             <div className="intro-section">
               <h1>About Me</h1>
               <p className="intro-text">
-                I'm Peshani Rasangika Ranaweera, a passionate Full-Stack
-                Developer currently pursuing my
-                <strong> Bachelor of Science in Computer Science</strong> at the
-                <strong>
-                  {" "}
-                  University of Colombo School of Computing (UCSC)
-                </strong>
-                . I specialize in creating comprehensive web applications that
-                solve real-world problems using modern technologies and best
-                practices.
+                I'm Peshani Rasangika Ranaweera, a final-year Computer Science
+                undergraduate at the
+                <strong> University of Colombo School of Computing (UCSC)</strong>
+                . I am a passionate Full-Stack Developer actively seeking an
+                internship opportunity to apply my skills in building
+                comprehensive web applications using modern technologies and
+                best practices.
               </p>
             </div>
           </section>

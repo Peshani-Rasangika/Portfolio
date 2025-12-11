@@ -14,10 +14,10 @@ function Landing() {
           </h1>
           <h2 className="hero-subtitle">Full-Stack Developer</h2>
           <p className="hero-description">
-            Third-year Computer Science undergraduate at UCSC who transforms
-            ideas into powerful web applications. I create end-to-end solutions
-            that solve real-world problems using modern technologies like React,
-            Node.js, and cutting-edge databases.
+            Final-year Computer Science undergraduate at UCSC actively seeking a
+            Full-Stack Developer internship. I specialize in building
+            user-centric web applications using modern technologies like React,
+            Node.js, and cloud services.
           </p>
 
           <div className="hero-buttons">
@@ -46,7 +46,7 @@ function Landing() {
             </div>
             <div className="highlight-item">
               <span className="highlight-icon">💼</span>
-              <span>4+ Projects Delivered</span>
+              <span>5+ Projects Delivered</span>
             </div>
             <div className="highlight-item">
               <span className="highlight-icon">⚡</span>
