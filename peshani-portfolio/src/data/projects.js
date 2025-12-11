@@ -586,13 +586,7 @@ const projects = [
     image: "/assets/ongoing.jpg",
     technologies: ["React", "Java Spring Boot", "PostgreSQL"],
     githubLink: "https://github.com/Peshani-Rasangika/FieldLink",
-    details: [
-      {
-        type: "text",
-        content: "==>*  INDIVIDUAL PROJECT  *<==",
-        bold: true,
-      },
-    ],
+    details: [],
   },
 ];
 
