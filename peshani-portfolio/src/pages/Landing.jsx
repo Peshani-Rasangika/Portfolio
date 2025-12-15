@@ -141,7 +141,7 @@ function Landing() {
               Contact Me
             </Link>
             <a
-              href="mailto:peshaniranaweera@gmail.com"
+              href="mailto:prranaweeraos2001@gmail.com"
               className="btn-secondary"
             >
               Send Email
