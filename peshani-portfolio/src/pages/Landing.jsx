@@ -138,7 +138,7 @@ function Landing() {
           </p>
           <div className="cta-buttons">
             <Link to="/contact" className="btn-primary">
-              Get In Touch
+              Contact Me
             </Link>
             <a
               href="mailto:peshaniranaweera@gmail.com"

@@ -20,7 +20,10 @@ function About() {
               <p className="intro-text">
                 I'm Peshani Rasangika Ranaweera, a final-year Computer Science
                 undergraduate at the
-                <strong> University of Colombo School of Computing (UCSC)</strong>
+                <strong>
+                  {" "}
+                  University of Colombo School of Computing (UCSC)
+                </strong>
                 . I am a passionate Full-Stack Developer actively seeking an
                 internship opportunity to apply my skills in building
                 comprehensive web applications using modern technologies and
@@ -83,6 +86,7 @@ function About() {
                   <span className="skill-tag">MySQL</span>
                   <span className="skill-tag">MongoDB</span>
                   <span className="skill-tag">PostgreSQL</span>
+                  <span className="skill-tag">MSSQL (Azure SQL)</span>
                 </div>
               </div>
 
@@ -94,6 +98,9 @@ function About() {
                   <span className="skill-tag">WebSockets</span>
                   <span className="skill-tag">RESTful APIs</span>
                   <span className="skill-tag">Firebase</span>
+                  <span className="skill-tag">Azure App Service</span>
+                  <span className="skill-tag">Azure Static Web Apps</span>
+                  <span className="skill-tag">GitHub Actions</span>
                   {/* <span className="skill-tag">JWT Authentication</span> */}
                 </div>
               </div>
