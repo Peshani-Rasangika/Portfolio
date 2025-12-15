@@ -95,6 +95,14 @@ function ProjectDetails() {
           margin: "0 auto",
         }}
       />
+      {project.liveUrl && (
+        <p style={{ marginTop: "16px" }}>
+          Live URL:{" "}
+          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+            {project.liveUrl}
+          </a>
+        </p>
+      )}
       <p>{project.description}</p>
 
       {/* Technologies Section */}

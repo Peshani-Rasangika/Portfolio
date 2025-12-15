@@ -597,6 +597,7 @@ const projects = [
     image: "/assets/digitalIDCardApp/landingPage.png",
     technologies: ["React", "Tailwind CSS", "Asgardeo (WSO2)", "Vercel"],
     githubLink: "https://github.com/Peshani-Rasangika/Digital-ID-card",
+    liveUrl: "https://digital-student-id-card-rouge.vercel.app/",
     details: [
       {
         type: "text",
@@ -825,12 +826,8 @@ const projects = [
       "https://github.com/Peshani-Rasangika/inventory-management-frontend",
     backendGithubLink:
       "https://github.com/Peshani-Rasangika/inventory-management-backend",
+    liveUrl: "https://red-river-06629a100.3.azurestaticapps.net/",
     details: [
-      {
-        type: "text",
-        content:
-          "Live Demo: https://red-river-06629a100.3.azurestaticapps.net/",
-      },
       {
         type: "text",
         content: "(Live Demo may not work if the backend is in sleep mode.)",
