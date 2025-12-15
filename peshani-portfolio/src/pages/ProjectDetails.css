@@ -1,0 +1,12 @@
+.project-video {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .project-video {
+    width: 90%;
+  }
+}

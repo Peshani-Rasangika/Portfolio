@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import projectsData from "../data/projects";
+import "./ProjectDetails.css";
 
 function ProjectDetails() {
   const { id } = useParams();
@@ -147,16 +148,7 @@ function ProjectDetails() {
               style={{ width: "70%", display: "block", margin: "0 auto" }}
             />
           ) : item.type === "video" ? (
-            <video
-              key={idx}
-              controls
-              style={{
-                width: "25%",
-                objectFit: "cover",
-                display: "block",
-                margin: "0 auto",
-              }}
-            >
+            <video key={idx} controls className="project-video">
               <source src={item.src} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
