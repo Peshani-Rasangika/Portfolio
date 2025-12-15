@@ -45,9 +45,46 @@ function ProjectDetails() {
         </span>
       )}
       <br />
-      <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-        View on GitHub
-      </a>
+      {(project.githubLink ||
+        project.frontendGithubLink ||
+        project.backendGithubLink) && (
+        <div style={{ margin: "16px 0" }}>
+          <h3>GitHub Repositories:</h3>
+          {project.frontendGithubLink && (
+            <div>
+              <a
+                href={project.frontendGithubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Frontend Repository
+              </a>
+            </div>
+          )}
+          {project.backendGithubLink && (
+            <div>
+              <a
+                href={project.backendGithubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Backend Repository
+              </a>
+            </div>
+          )}
+          {!project.frontendGithubLink &&
+            !project.backendGithubLink &&
+            project.githubLink && (
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on GitHub
+              </a>
+            )}
+        </div>
+      )}
       <img
         src={project.image}
         alt={project.title}
@@ -101,6 +138,20 @@ function ProjectDetails() {
               alt={`${project.title} screenshot ${idx + 1}`}
               style={{ width: "70%", display: "block", margin: "0 auto" }}
             />
+          ) : item.type === "video" ? (
+            <video
+              key={idx}
+              controls
+              style={{
+                width: "25%",
+                objectFit: "cover",
+                display: "block",
+                margin: "0 auto",
+              }}
+            >
+              <source src={item.src} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           ) : item.bold ? (
             <p
               key={idx}

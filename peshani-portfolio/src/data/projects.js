@@ -805,6 +805,77 @@ const projects = [
       },
     ],
   },
+  {
+    id: 7,
+    title: "Inventory Management System",
+    projectType: "Individual Project",
+    description:
+      "Designed and developed a full-stack inventory management system with complete CRUD functionality, deployed on Azure using a scalable, cloud-native architecture.",
+    image: "/assets/inventory/landingPage.png",
+    technologies: [
+      "React",
+      "Node.js (Express)",
+      "MSSQL (Azure SQL)",
+      "Azure App Service",
+      "Azure Static Web Apps",
+      "GitHub Actions",
+      "Tailwind CSS",
+    ],
+    frontendGithubLink:
+      "https://github.com/Peshani-Rasangika/inventory-management-frontend",
+    backendGithubLink:
+      "https://github.com/Peshani-Rasangika/inventory-management-backend",
+    details: [
+      {
+        type: "text",
+        content:
+          "Live Demo: https://red-river-06629a100.3.azurestaticapps.net/",
+      },
+      {
+        type: "text",
+        content: "(Live Demo may not work if the backend is in sleep mode.)",
+      },
+      {
+        type: "video",
+        src: "/assets/inventory/inventoryMobile.mp4",
+      },
+      {
+        type: "text",
+        content:
+          "Designed and developed a full-stack inventory management system with complete CRUD functionality.",
+      },
+      {
+        type: "text",
+        content:
+          "Built RESTful APIs using Node.js and Express to manage products and inventory data.",
+      },
+      {
+        type: "text",
+        content:
+          "Integrated Azure SQL (MSSQL) as the relational database and configured secure database connectivity using environment variables.",
+      },
+      {
+        type: "text",
+        content:
+          "Deployed the backend API on Azure App Service and the frontend on Azure Static Web Apps with reliable cloud configuration.",
+      },
+      {
+        type: "text",
+        content:
+          "Configured environment-based settings and implemented CI/CD pipelines with GitHub Actions to automate build and deployment workflows.",
+      },
+      {
+        type: "text",
+        content:
+          "Troubleshot deployment, database connectivity, and runtime configuration issues to ensure smooth operation across environments.",
+      },
+      {
+        type: "text",
+        content:
+          "Tested API endpoints using Postman and validated application behavior across desktop and mobile devices.",
+      },
+    ],
+  },
 ];
 
 export default projects;
