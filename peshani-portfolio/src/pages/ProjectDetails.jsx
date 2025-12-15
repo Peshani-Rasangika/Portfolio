@@ -3,6 +3,45 @@ import { useParams, useNavigate } from "react-router-dom";
 import projectsData from "../data/projects";
 import "./ProjectDetails.css";
 
+const HIGHLIGHT_KEYWORDS = [
+  "full-stack",
+  "CRUD",
+  "RESTful APIs",
+  "Node.js",
+  "Express",
+  "Azure SQL",
+  "MSSQL",
+  "Azure App Service",
+  "Azure Static Web Apps",
+  "GitHub Actions",
+  "CI/CD",
+  "pipelines",
+  "automate",
+  "deployment",
+  "cloud",
+  "cloud-native",
+  "native",
+];
+
+const highlightKeywords = (text) => {
+  if (!text) return text;
+
+  const regex = new RegExp(`(${HIGHLIGHT_KEYWORDS.join("|")})`, "gi");
+  const parts = text.split(regex);
+
+  return parts.map((part, index) => {
+    const isKeyword = HIGHLIGHT_KEYWORDS.some(
+      (keyword) => keyword.toLowerCase() === part.toLowerCase()
+    );
+
+    if (isKeyword) {
+      return <strong key={index}>{part}</strong>;
+    }
+
+    return part;
+  });
+};
+
 function ProjectDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -104,7 +143,7 @@ function ProjectDetails() {
           </a>
         </p>
       )}
-      <p>{project.description}</p>
+      <p>{highlightKeywords(project.description)}</p>
 
       {/* Technologies Section */}
       {project.technologies && (
@@ -165,7 +204,7 @@ function ProjectDetails() {
             </p>
           ) : (
             <p key={idx} style={{ fontSize: "1.1em", padding: "0 20px" }}>
-              {item.content}
+              {highlightKeywords(item.content)}
             </p>
           )
         )}
